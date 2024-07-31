@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Explorer</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+    </head>
+<body>
+<h1>Explorer</h1>
+<!-- <p>You will need to allow your browser to access your current location.</p>
+
+<button onclick="getLocation()">Allow Current Location Access</button> -->
+
+<!-- <iframe src = "https://maps.google.com/maps?q=10.305385,77.923029&hl=es;z=14&amp;output=embed"></iframe> -->
+
+
+    <center>
+        <div id="map-container">
+            <iframe id="map" src="https://maps.google.com/maps?q=10.305385,77.923029&hl=es;z=14&amp;output=embed"></iframe>
+            <div id="radius"></div>
+        </div>
+    </center>
+    <input type="number" id="radiusInput" placeholder="Radius in kilometers">
+    <!-- <script>
+        const radiusElement = document.getElementById('radius');
+     const radiusInput = document.getElementById('radiusInput');
+ 
+     // Approximate conversion factor (highly inaccurate, adjust based on map projection and zoom level)
+     const pixelsPerKilometer = 100; // Replace with accurate value
+ 
+     radiusInput.addEventListener('input', () => {
+       const radiusKm = parseFloat(radiusInput.value);
+       const radiusPx = radiusKm * pixelsPerKilometer;
+       radiusElement.style.width = radiusPx + 'px';
+       radiusElement.style.height = radiusPx + 'px';
+     });
+   </script> -->
+ </body>
+ </html>
+ 
