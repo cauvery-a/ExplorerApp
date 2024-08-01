@@ -1,22 +1,19 @@
-#map-container {
-    width: 95%;
-    max-width: 95%;
-    max-height: 100%;
-    /* height: 800px; */
+body {
+    padding-top: 2%;
 }
 
-#map {
-    width: 100%;
-    /* height: 200px; */
-    max-width: 100%;
+#current_location_div {
+    padding: 1.5%;
 }
 
-#radius {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    border: 1px solid red;
-    background-color: rgba(0, 0, 0, 0);
+#distance_radius_div {
+    padding: 1.5%;
+}
+
+#generate_location {
+    padding: 1.5%;
+}
+
+.generate_location_ch_pad {
+    padding: 1.5%;
 }
